@@ -3,6 +3,10 @@
 const navigation = document.querySelector('.nav');
 const menuLogo = document.querySelector('.menu_logo');
 const nav = document.querySelector('.nav');
+const colorcircle = document.querySelector('.color-circle');
+const color = document.querySelector('.color');
+const wrapper = document.querySelector('.wrapper');
+const about = document.querySelector('.about-me');
 
 function closeMenu (e) {
 	navigation.classList.remove('visible')
@@ -22,3 +26,26 @@ function openMenu (e) {
 }
 
 menuLogo.onclick = openMenu;
+
+function changeColor(e) {
+	if (colorcircle.classList.contains('other-color')) {
+		colorcircle.classList.remove('other-color')
+	} else{
+		colorcircle.classList.add('other-color')
+	}
+
+	if (wrapper.classList.contains('dark')) {
+		wrapper.classList.remove('dark')
+	} else{
+		wrapper.classList.add('dark')
+	}
+
+	if (about.classList.contains('dark-about')) {
+		about.classList.remove('dark-about')
+	} else{
+		about.classList.add('dark-about')
+	}
+}
+
+color.onclick = changeColor;
+
