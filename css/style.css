@@ -60,8 +60,8 @@ body {
           transition-duration: 0.5s;
 }
 .nav .nav__part:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .menu_logo {
@@ -125,7 +125,7 @@ body {
 }
 .header__content .color {
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   left: calc(50% - 25px);
   width: 50px;
   height: 30px;
@@ -140,20 +140,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 20px 0;
 }
 .header__content .color:before {
   content: "W";
   position: absolute;
   right: 60px;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
 }
 .header__content .color:after {
   content: "D";
   position: absolute;
   left: 60px;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
 }
 .header__content .color .color-circle.other-color {
@@ -167,6 +166,53 @@ body {
   border-radius: 20px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+}
+
+.lang {
+  position: absolute;
+  bottom: 60px;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.lang:before {
+  content: "En";
+  position: absolute;
+  right: 60px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.lang:after {
+  content: "Ru";
+  position: absolute;
+  left: 60px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.lang .lang-circle {
+  width: 21px;
+  height: 21px;
+  background-color: black;
+  border-radius: 20px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.lang .lang-circle.other-color {
+  background-color: white;
+}
+.lang .lang-circle.other-lang {
+  margin-left: 22px;
 }
 
 .header__title {
@@ -205,6 +251,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 15px;
 }
 .header__photo img {
   width: 295px;
