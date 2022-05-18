@@ -74,6 +74,13 @@ const progs2 = document.querySelector('.prog__title');
 const subProgs = document.querySelector('.sub-prog');
 const footTit = document.querySelector('.footer__title');
 const footSub = document.querySelector('.footer__sub-title');
+const works = document.querySelector('.works');
+const worksTitle = document.querySelector('.works__title');
+const subPhoto = document.querySelector('.subtitle-photo');
+const subJuice = document.querySelector('.subtitle-juice');
+
+
+
 
 function changeLang(e) {
 	if (langCirc.classList.contains('other-lang')) {
@@ -85,6 +92,8 @@ function changeLang(e) {
 		aboutM2.innerHTML = 'About me';
 		skills.innerHTML = 'Scills';
 		skills2.innerHTML = 'Scills';
+		works.innerHTML = 'Works';
+		worksTitle.innerHTML = 'Portfolio';
 		progs.innerHTML = 'Using programms';
 		progs2.innerHTML = 'Using Programms';
 		cont.innerHTML = 'Contacts';
@@ -97,6 +106,9 @@ function changeLang(e) {
 		subProgs.innerHTML = 'I work in such programs as';
 		footTit.innerHTML = 'Contacts';
 		footSub.innerHTML = 'Want to know more or just chat? You are welcome!';
+		subPhoto.innerHTML = 'Using vanilla Js';
+		subJuice.innerHTML = 'Using jquery';
+		
 	} else {
 		langCirc.classList.add('other-lang')
 
@@ -106,6 +118,8 @@ function changeLang(e) {
 		aboutM2.innerHTML = 'Про меня';
 		skills.innerHTML = 'Знания';
 		skills2.innerHTML = 'Знания';
+		works.innerHTML = 'Роботы';
+		worksTitle.innerHTML = 'Портфолио';
 		progs.innerHTML = 'Программы';
 		progs2.innerHTML = 'Программы';
 		cont.innerHTML = 'Контакты';
@@ -118,6 +132,8 @@ function changeLang(e) {
 		subProgs.innerHTML = 'Я работаю в таких программах:';
 		footTit.innerHTML = 'Контакты';
 		footSub.innerHTML = 'По всем вопросам, пишите сюда';
+		subPhoto.innerHTML = 'Используя Java Script';
+		subJuice.innerHTML = 'Используя Jquery';
 	}
 }
 

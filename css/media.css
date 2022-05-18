@@ -7,7 +7,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
 	.nav{
 		position: absolute;
 		top: 10px;
@@ -59,6 +59,12 @@
 	}
 }
 
+@media screen and (max-width: 500px) {
+	img.img-portfolio.img-fotograf , img.img-portfolio.img-juice{
+		width: 300px;
+	}
+}
+
 
 @media screen and (max-width: 445px) {
 
@@ -103,4 +109,11 @@
 		width: 45px;
 	}
 
+}
+
+@media screen and (max-width: 350px) {
+	img.img-portfolio.img-fotograf,
+	img.img-portfolio.img-juice {
+		width: 250px;
+	}
 }
