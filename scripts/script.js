@@ -76,8 +76,7 @@ const footTit = document.querySelector('.footer__title');
 const footSub = document.querySelector('.footer__sub-title');
 const works = document.querySelector('.works');
 const worksTitle = document.querySelector('.works__title');
-const subPhoto = document.querySelector('.subtitle-photo');
-const subJuice = document.querySelector('.subtitle-juice');
+
 
 
 
@@ -106,8 +105,6 @@ function changeLang(e) {
 		subProgs.innerHTML = 'I work in such programs as';
 		footTit.innerHTML = 'Contacts';
 		footSub.innerHTML = 'Want to know more or just chat? You are welcome!';
-		subPhoto.innerHTML = 'Using vanilla Js';
-		subJuice.innerHTML = 'Using jquery';
 		
 	} else {
 		langCirc.classList.add('other-lang')
@@ -132,8 +129,6 @@ function changeLang(e) {
 		subProgs.innerHTML = 'Я работаю в таких программах:';
 		footTit.innerHTML = 'Контакты';
 		footSub.innerHTML = 'По всем вопросам, пишите сюда';
-		subPhoto.innerHTML = 'Используя Java Script';
-		subJuice.innerHTML = 'Используя Jquery';
 	}
 }
 
