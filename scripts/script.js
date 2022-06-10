@@ -76,7 +76,7 @@ const footTit = document.querySelector('.footer__title');
 const footSub = document.querySelector('.footer__sub-title');
 const works = document.querySelector('.works');
 const worksTitle = document.querySelector('.works__title');
-
+const partPhp = document.querySelector('.partPhp')
 
 
 
@@ -92,19 +92,19 @@ function changeLang(e) {
 		skills.innerHTML = 'Scills';
 		skills2.innerHTML = 'Scills';
 		works.innerHTML = 'Works';
+		partPhp.innerHTML = 'Php(basics of interaction with Backend)'
 		worksTitle.innerHTML = 'Portfolio';
 		progs.innerHTML = 'Using programms';
 		progs2.innerHTML = 'Using Programms';
 		cont.innerHTML = 'Contacts';
 		nameM.innerHTML = 'Vasia Panov';
 		first.innerHTML = "Hi, I'm Vasil – HTML / CSS / JS developer from Kyiv.I'm interested in Web and everything connected with it.";
-		sec.innerHTML = 'I went through a lot of lessons on site layout. The main direction is to create the look of the site using PSD layouts. Worked as an freelancer, making small sites and landings.';
-		third.innerHTML = 'Ready to implement excellent projects with wonderful people.';
-		partJs.innerHTML = 'Java Script - I have basic knowledge and those used to create a site. For example: sliders, popups, menus, spoilers, etc.';
-		partBem.innerHTML = 'BEM(methodology) - understend and sometimes use';
+		sec.innerHTML = 'I went through a lot of lessons on site layout. The main direction is to create the look of the site using PSD layouts. Worked as an freelancer, making small sites and landings. I have experience in creating websites both in Jquery and Java script.  I can work using Bem.  For assembly and other tasks I use Prepros and Gulp.  I know the basics of php and interaction with the Backend part of the project.';
+		partJs.innerHTML = 'Java Script - I have average knowledge and those used to create a site.';
+		partBem.innerHTML = 'BEM(methodology)';
 		subProgs.innerHTML = 'I work in such programs as';
 		footTit.innerHTML = 'Contacts';
-		footSub.innerHTML = 'Want to know more or just chat? You are welcome!';
+		footSub.innerHTML = 'Do you have questions? You are welcome!';
 		
 	} else {
 		langCirc.classList.add('other-lang')
@@ -116,16 +116,16 @@ function changeLang(e) {
 		skills.innerHTML = 'Знания';
 		skills2.innerHTML = 'Знания';
 		works.innerHTML = 'Роботы';
+		partPhp.innerHTML = 'Php(основы взаимодействия с Backend)'
 		worksTitle.innerHTML = 'Портфолио';
 		progs.innerHTML = 'Программы';
 		progs2.innerHTML = 'Программы';
 		cont.innerHTML = 'Контакты';
 		nameM.innerHTML = 'Василий Панов';
 		first.innerHTML = 'Привет, я Василий — HTML/CSS/JS разработчик из Киева. Я интересуюсь в Web и все, что с ним связано.';
-		sec.innerHTML = 'Я прошел много уроков по верстке сайта. Основное направление — создание внешнего вида сайта используя PSD-макеты. Работал фрилансером, делал небольшие сайты и лендинги.';
-		third.innerHTML = 'Готов реализовать отличные проекты с замечательными людьми.';
-		partJs.innerHTML = 'Java Script - Имею базовие знания синтаксиса и умение работы с DOM деревом.';
-		partBem.innerHTML = 'BEM(метадология) - понимаю принципи, иногда использую';
+		sec.innerHTML = 'Я прошел много уроков по верстке сайта. Основное направление — создание внешнего вида сайта используя PSD-макеты. Работал фрилансером, делал небольшие сайты и лендинги. Имею опыт создания сайтов как на Jquery так и на Java script. Могу работать используя Bem. Для сборки и других задач использую Prepros и Gulp. Знаю основы  php и взаимодействие с Backend частю проекта.';
+		partJs.innerHTML = 'Java Script - Имею средние знания синтаксиса и умение работы с DOM деревом.';
+		partBem.innerHTML = 'BEM(метадология)';
 		subProgs.innerHTML = 'Я работаю в таких программах:';
 		footTit.innerHTML = 'Контакты';
 		footSub.innerHTML = 'По всем вопросам, пишите сюда';

@@ -73,13 +73,14 @@ body{
 	height: 40px;
 	background-color: #828282;
 	display: flex;
+	border: 0;
 	justify-content: center;
 	align-content: center;
 	font-size: 30px;
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
-	padding-top: 1px;
+	padding-top: 3px;
 	transition-duration: .5s;
 	display: none;
 
@@ -97,9 +98,9 @@ body{
 .logo__menue_cross{
 
 	&:before{
-		content: 'X';
+		content: 'x';
 		font-size: 25px;
-		padding-top: 5px;
+		padding-top: 4px;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -259,13 +260,12 @@ body{
 .about-me{
 	width: 85%;
 	margin: 0 auto;
-	min-height: 500px;
 	border-bottom: 1px solid #828282;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	background-color: #ECF8F8;
-	padding: 20px 0;
+	padding: 50px 0;
 	transition-duration: 1s;
 }
 
@@ -396,18 +396,19 @@ body{
 }
 
 .social-networks{
-	width: 40%;
 	display: flex;
-	justify-content: space-around;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin-top: 40px;
 }
 
 .img-net{
 	width: 50px;
 	height: 50px;
-	margin-top: 40px ;
+	
 }
 
-.img-net__gmail{
+.img-net__gmail {
 	width: 65px;
 }
 
