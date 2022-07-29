@@ -13,11 +13,9 @@ body{
 	background-color: #F3F3F3;
 }
 
-
-
 .wrapper{
 	width: 100%;
-	max-width: 1445px;
+	max-width: 1645px;
 	min-height: 100vh;
 	margin: 0 auto;
 	background-color: white;
@@ -114,7 +112,7 @@ body{
 
 .header__content{
 	width: 100%;
-	padding: 20px 10px 75px 10px;
+	padding: 80px 10px 125px 10px;
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid #828282;
@@ -245,9 +243,9 @@ body{
 
 
 	img{
-		width: 295px;
-		height: 490px;
-		border-radius: 30px;
+		width: 180px;
+		height: 180px;
+		border-radius: 50%;
 	}
 }
 

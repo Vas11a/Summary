@@ -1,5 +1,9 @@
 
-
+@media screen and (max-width: 736px) {
+	div#using-programms, .progs{
+		display: none;
+	}
+}
 
 @media screen and (max-width: 630px) {
 	.nav{
@@ -46,12 +50,12 @@
 
 }
 
-@media screen and (max-width: 660px) {
+/* @media screen and (max-width: 660px) {
 	.header__photo>img.myphoto{
 		width: 250px;
 		height: 400px;
 	}
-}
+} */
 
 @media screen and (max-width: 500px) {
 	img.img-portfolio.img-fotograf , img.img-portfolio.img-juice{
@@ -61,6 +65,10 @@
 
 
 @media screen and (max-width: 445px) {
+
+	div#header__content{
+		padding: 30px 10px 90px;
+	}
 
 	.title{
 		font-size: 30px;
@@ -83,11 +91,6 @@
 	div.using-programms{
 		padding-top: 50px;
 		padding-bottom: 50px;
-	}
-
-	.header__photo>img.myphoto{
-		width: 250px;
-		height: 400px;
 	}
 
 
