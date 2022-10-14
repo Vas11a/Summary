@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.black{
+  color: #B9C5B9;
+  background-color: black;
+  transition-duration: .7s;
+}
+
+.white{
+  color: black;
+  background-color: white;
+  transition-duration: .7s;
+}
+
+
+
+.wrapper{
+  width: 100%;
+  max-width: 1900px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 620px){
+  .title{
+    font-size: 30px;
+  }
+}
