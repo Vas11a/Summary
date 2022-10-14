@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Summary/static/css/main.8185964a.css",
+    "main.js": "/Summary/static/js/main.67099441.js",
+    "static/media/mph.jpg": "/Summary/static/media/mph.426ba9908ee5c2e7956b.jpg",
+    "static/media/coctails.jpg": "/Summary/static/media/coctails.038a60439437a035b9d0.jpg",
+    "static/media/gmai;.png": "/Summary/static/media/gmai;.2aa050721562bfaa6714.png",
+    "static/media/spa.jpg": "/Summary/static/media/spa.f7429758deb81de82371.jpg",
+    "static/media/shop.jpg": "/Summary/static/media/shop.3a8ec2f51c623a734d33.jpg",
+    "static/media/games.jpg": "/Summary/static/media/games.acace0ff58b2fa2b3e4a.jpg",
+    "static/media/todo.jpg": "/Summary/static/media/todo.92dbc279b71e9739639c.jpg",
+    "static/media/tg.png": "/Summary/static/media/tg.bffdf789bbd7d2dc2767.png",
+    "static/media/wwidget.jpg": "/Summary/static/media/wwidget.97f95bf2edc1b1c189fe.jpg",
+    "static/media/menu.png": "/Summary/static/media/menu.1a479c04ca72fb678646.png",
+    "index.html": "/Summary/index.html",
+    "main.8185964a.css.map": "/Summary/static/css/main.8185964a.css.map",
+    "main.67099441.js.map": "/Summary/static/js/main.67099441.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8185964a.css",
+    "static/js/main.67099441.js"
+  ]
+}
