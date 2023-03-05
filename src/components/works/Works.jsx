@@ -12,7 +12,7 @@ export default function Works({ thema, data }) {
                     data.blocks.map(elem => {
                         return (
                             <div className={s.block}>
-                                <div className={s.block_img}>
+                                <div className={s.block_img} style={{border: `${elem.lang === 'js' ? '7px solid #F9E223' : `${elem.lang === 'ts' ? '7px solid #0090D9' : '7px solid #92C249'}`}`}}>
                                     <img src={elem.photo} alt="" />
                                     <div className={s.tehnologies}>
                                         {elem.steck}
