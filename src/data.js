@@ -37,7 +37,7 @@ const data = {
     worksPage: {
         title: 'Works',
         blocks: [
-            { photo: calendar, name: 'Calendar Online', steck: 'MERN, Tailwind Css', link: 'https://vas11a.github.io/frontend-calendar-online/' , lang: 'node'},
+            { photo: calendar, name: 'Calendar Online', steck: 'MERN, Tailwind Css, Type script', link: 'https://vas11a.github.io/frontend-calendar-online/' , lang: 'node'},
             { photo: life, name: 'Life Game', steck: 'React, Redux-toolkit(DT only!)', link: 'https://vas11a.github.io/life-game/' , lang: 'js'},
             { photo: ghProfiles, name: 'GitHub profiles', steck: 'React Redux-toolkit Type script', link: 'https://vas11a.github.io/github-profiles/' , lang: 'ts'},
             { photo: shop, name: 'Fruit shop', steck: 'React, redux, mokapi.io', link: 'https://vas11a.github.io/Fruit-shop/' , lang: 'js'},

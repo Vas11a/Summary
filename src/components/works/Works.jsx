@@ -9,9 +9,9 @@ export default function Works({ thema, data }) {
             <div className={s.block_works}>
 
                 {
-                    data.blocks.map(elem => {
+                    data.blocks.map((elem,idx) => {
                         return (
-                            <div className={s.block}>
+                            <div className={s.block} key={elem+idx}>
                                 <div className={s.block_img} style={{border: `${elem.lang === 'js' ? '7px solid #F9E223' : `${elem.lang === 'ts' ? '7px solid #0090D9' : '7px solid #92C249'}`}`}}>
                                     <img src={elem.photo} alt="" />
                                     <div className={s.tehnologies}>

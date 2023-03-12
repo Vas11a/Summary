@@ -11,9 +11,9 @@ export default function Footer({ data }) {
           <div className={s.soc_network_block}>
         
             {
-                data.map(elem => {
+                data.map((elem,idx) => {
                     return(
-                        <a href={elem.link}><img src={elem.photo} alt="" /></a>
+                        <a key={elem+idx} href={elem.link}><img src={elem.photo} alt="" /></a>
                     )
                 })
             }
