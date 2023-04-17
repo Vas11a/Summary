@@ -16,23 +16,28 @@ import tg from './imgs/tg.png'
 const data = {
     mainPage: { 
         menu: { 
-            names: ['Home', 'About me', 'Skills', 'Works', 'Contacts'], 
-            links: ['/', 'about', 'skills', 'works', 'contacts'] 
+            names: ['Home', 'About me', 'Skills','Education', 'Works', 'Contacts'], 
+            links: ['/', 'about', 'skills','education' , 'works', 'contacts'] 
         }, 
         myInfo: { 
             name: 'Vasia Panov', 
-            data: 'Frontend Developer 18 years old, Kyiv', 
+            data: 'Frontend Developer 19 years old, Kyiv/Warsaw', 
             photo: myPhoto
         }  
     },
     aboutPage: {
         title: 'About me',
         info: 
-        `Hi, I'm Vasil – Frontend developer from Kyiv. I'm interested in Web and everything connected with it. I have been programming for about 2 years, and the web for about a year. I started with html layout on a freelance basis, now I'm learning to be a React+Redux developer.`
+        `Hi, I'm Vasil – Frontend React developer. I'm interested in Web and everything connected with it. I have been programming for about 2.5 years, and the web for about a 1.5 years. I have about half a year commercial experience as a react developer in small web studio. Now learn new technologies like node.js+express `
     },
     scillsPage: {
         title: 'Skills',
-        skills: ['Html' , 'Css/scss' , 'Java Script', 'Type Script' , 'Jquery', 'React', 'Redux/redux-toolkit','Node(base)','MongoDB', 'Gulp', 'Git', 'English B1-B2']
+        skills: ['Html/Css' , 'Scss/Tailwind.css' , 'Java Script', 'Type Script' , 'Jquery', 'React', 'Redux/redux-toolkit','Node/express(base)','MongoDB', 'RestFull API', 'Git']
+    },
+    educationPage: {
+        title: 'Education',
+        univer: {data: '(2022 - 2025)', name: 'AEH Warsaw', faculty: 'faculty of informatics, specialization - web applications'},
+        lang: {title: 'Languages', langs: [ {name: 'English' , know: 'B2'}, {name: 'Polish' , know: 'B1'}, {name: 'Ukrainian' , know: 'native'}, {name: 'Russian' , know: 'native'}]}
     },
     worksPage: {
         title: 'Works',

@@ -1,14 +1,40 @@
 import React from 'react'
-import s from './footer.module.scss'
+import {motion} from 'framer-motion';
+import s from './footer.module.scss';
+
+
+const animation = {
+  hidden: {
+    y: 500,
+    opacity: 0
+  },
+  visible:{
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5
+    }
+  }
+}
+
 
 export default function Footer({ data }) {
   return (
-      <div className={s.content} id='contacts'>
+      <motion.div 
+      initial='hidden'
+      whileInView='visible'
+      className={s.content} id='contacts'>
         
         <hr/>
-      <div className={`title ${s.title}`}>Cocntacts</div>
-      <div className={s.footer_text}>Do you have questions? You are welcome!</div>
-          <div className={s.soc_network_block}>
+      <motion.div 
+      variants={animation} 
+      className={`title ${s.title}`}>Contacts</motion.div>
+      <motion.div 
+      variants={animation} 
+      className={s.footer_text}>Do you have questions? You are welcome!</motion.div>
+          <motion.div 
+          variants={animation} 
+          className={s.soc_network_block}>
         
             {
                 data.map((elem,idx) => {
@@ -18,8 +44,8 @@ export default function Footer({ data }) {
                 })
             }
 
-          </div>
+          </motion.div>
         <hr />
-    </div>
+    </motion.div>
   )
 }

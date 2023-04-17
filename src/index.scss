@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color:  transparent;
+  font-family: 'Roboto', sans-serif;
 }
+
+
 
 .black{
   color: #B9C5B9;
@@ -23,6 +27,7 @@
   max-width: 1900px;
   padding: 5px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .title{

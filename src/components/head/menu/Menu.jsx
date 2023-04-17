@@ -6,6 +6,7 @@ import './style.scss'
 import { useState } from 'react'
 
 
+
 export default function Menu({data}) {
   const [menu, setMenu] = useState(false);
 
@@ -14,8 +15,11 @@ export default function Menu({data}) {
   }
 
   return (
-    <div className='container'>
-      <div className={ menu ? 'visib content'  : 'content'}>
+    <div 
+    
+    className='container'>
+      <div 
+      className={ menu ? 'visib content'  : 'content'}>
         {
           data.names.map((elem,idx) => <Link 
           to={data.links[idx]}

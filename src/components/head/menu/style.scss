@@ -23,7 +23,7 @@ p{
     opacity: 1;
     transition-duration: .5s;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
 }
 
 .link{
@@ -31,6 +31,13 @@ p{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    transition-duration: .5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+    &:active{
+        transform: scale(1);
+    }
 }
 
 .menu-button{
@@ -60,7 +67,7 @@ p{
     display: none;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 626px){
     .content{
         visibility: hidden;
         opacity: 0;
