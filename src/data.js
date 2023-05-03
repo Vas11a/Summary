@@ -7,6 +7,7 @@ import widget from './imgs/wwidget.jpg'
 import calendar from './imgs/calendar.jpg'
 import ghProfiles from './imgs/gh-profiles.jpg'
 import life from './imgs/lifeGame.png'
+import qr from './imgs/qr.jpg'
 
 import gh from './imgs/ghub.png'
 import gmail from './imgs/gmai;.png'
@@ -32,7 +33,7 @@ const data = {
     },
     scillsPage: {
         title: 'Skills',
-        skills: ['Html/Css' , 'Scss/Tailwind.css' , 'Java Script', 'Type Script' , 'Jquery', 'React', 'Redux/redux-toolkit','Node/express(base)','MongoDB', 'RestFull API', 'Git']
+        skills: ['Html/Css' , 'Scss/Tailwind.css' , 'Java Script', 'Type Script' , 'React', 'Redux/redux-toolkit','Vue/vuex','Node/express(base)','MongoDB', 'RestFull API', 'Git']
     },
     educationPage: {
         title: 'Education',
@@ -46,6 +47,7 @@ const data = {
             { photo: life, name: 'Life Game', steck: 'React, Redux-toolkit(DT only!)', link: 'https://vas11a.github.io/life-game/' , lang: 'js'},
             { photo: ghProfiles, name: 'GitHub profiles', steck: 'React Redux-toolkit Type script', link: 'https://vas11a.github.io/github-profiles/' , lang: 'ts'},
             { photo: shop, name: 'Fruit shop', steck: 'React, redux, mokapi.io', link: 'https://vas11a.github.io/Fruit-shop/' , lang: 'js'},
+            { photo: qr, name: 'Qr generator', steck: 'Vue, vuex, tailwind css', link: 'https://qr-generator-43wb.onrender.com/' , lang: 'js'},
             { photo: todo, name: 'To Do List', steck: 'React, Redux', link: 'https://vas11a.github.io/todolist-by-react/' , lang: 'js'},
             { photo: widget, name: 'Weather widget', steck: 'React, Type Script', link: 'https://vas11a.github.io/weather-widget-ts/' , lang: 'ts'},
             { photo: games, name: 'Mini games', steck: 'Java script', link: 'https://vas11a.github.io/mini-games/', lang: 'js'},
