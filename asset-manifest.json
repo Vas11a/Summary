@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Summary/static/css/main.5b3a6319.css",
-    "main.js": "/Summary/static/js/main.234eb225.js",
+    "main.js": "/Summary/static/js/main.f4ca5bb3.js",
     "static/media/mph.jpg": "/Summary/static/media/mph.d319dcfd347865e30c85.jpg",
     "static/media/gh-profiles.jpg": "/Summary/static/media/gh-profiles.9bb6209912cb9a662955.jpg",
     "static/media/lifeGame.png": "/Summary/static/media/lifeGame.082083941fdb8bd7f3da.png",
@@ -9,6 +9,7 @@
     "static/media/spa.jpg": "/Summary/static/media/spa.f7429758deb81de82371.jpg",
     "static/media/shop.jpg": "/Summary/static/media/shop.3a8ec2f51c623a734d33.jpg",
     "static/media/games.jpg": "/Summary/static/media/games.acace0ff58b2fa2b3e4a.jpg",
+    "static/media/qr.jpg": "/Summary/static/media/qr.f872e6bd49b25766dec7.jpg",
     "static/media/calendar.jpg": "/Summary/static/media/calendar.112c4383d0ab3bea6ba1.jpg",
     "static/media/todo.jpg": "/Summary/static/media/todo.92dbc279b71e9739639c.jpg",
     "static/media/tg.png": "/Summary/static/media/tg.bffdf789bbd7d2dc2767.png",
@@ -16,10 +17,10 @@
     "static/media/menu.png": "/Summary/static/media/menu.1a479c04ca72fb678646.png",
     "index.html": "/Summary/index.html",
     "main.5b3a6319.css.map": "/Summary/static/css/main.5b3a6319.css.map",
-    "main.234eb225.js.map": "/Summary/static/js/main.234eb225.js.map"
+    "main.f4ca5bb3.js.map": "/Summary/static/js/main.f4ca5bb3.js.map"
   },
   "entrypoints": [
     "static/css/main.5b3a6319.css",
-    "static/js/main.234eb225.js"
+    "static/js/main.f4ca5bb3.js"
   ]
 }
