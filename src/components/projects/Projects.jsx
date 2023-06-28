@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './works.module.scss';
+import s from './projects.module.scss';
 import {motion} from 'framer-motion';
 
 const animation = {
@@ -18,17 +18,17 @@ const animation = {
 }
 
 
-export default function Works({ thema, data }) {
+export default function Projects({ thema, data }) {
     return (
         <motion.div 
         initial='hidden'
         whileInView='visible'
-        className={s.content} id='works'>
+        className={s.content} id='projects'>
             <hr />
             <motion.div 
             variants={animation} 
             custom={-0.5}
-            className={`title ${s.title}`}>Works</motion.div>
+            className={`title ${s.title}`}>{data.title}</motion.div>
             <div className={s.block_works}>
 
                 {

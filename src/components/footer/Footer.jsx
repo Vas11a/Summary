@@ -5,7 +5,7 @@ import s from './footer.module.scss';
 
 const animation = {
   hidden: {
-    y: 500,
+    y: 1000,
     opacity: 0
   },
   visible:{

@@ -17,8 +17,8 @@ import tg from './imgs/tg.png'
 const data = {
     mainPage: { 
         menu: { 
-            names: ['Home', 'About me', 'Skills','Education', 'Works', 'Contacts'], 
-            links: ['/', 'about', 'skills','education' , 'works', 'contacts'] 
+            names: ['Home', 'About me', 'Skills','Education','Work', 'Pet projects', 'Contacts'], 
+            links: ['/', 'about', 'skills','education' , 'work' ,'projects', 'contacts'] 
         }, 
         myInfo: { 
             name: 'Vasia Panov', 
@@ -28,20 +28,39 @@ const data = {
     },
     aboutPage: {
         title: 'About me',
-        info: 
-        `Hi, I'm Vasil – Frontend React developer. I'm interested in Web and everything connected with it. I have been programming for about 2.5 years, and the web for about a 1.5 years. I have about half a year commercial experience as a react developer in small web studio. Now learn new technologies like node.js+express `
+        info: `Hi, I am Vasyl a frontend developer from Ukraina. I have 2 years
+        of development experience and more than year of
+        commercial experience with frontend technologies.
+        Now I'm studying at the university in Warsaw(distance)
+        and improve my programming skills. Looking for a job
+        as a junior-middle frontend developer. `
     },
     scillsPage: {
         title: 'Skills',
-        skills: ['Html/Css' , 'Scss/Tailwind.css' , 'Java Script', 'Type Script' , 'React', 'Redux/redux-toolkit','Vue/vuex','Node/express(base)','MongoDB', 'RestFull API', 'Git']
+        skills: ['Html/Css' , 'Scss/Tailwind.css' , 'Java Script', 'Type Script' , 'React/next.js', 'Redux/redux-toolkit','Vue/vuex','Node/express(base)','MongoDB','Docker', 'RestFull API', 'Git']
     },
     educationPage: {
         title: 'Education',
         univer: {data: '(2022 - 2025)', name: 'AEH Warsaw', faculty: 'faculty of informatics, specialization - web applications'},
         lang: {title: 'Languages', langs: [ {name: 'English' , know: 'B2'}, {name: 'Polish' , know: 'B1'}, {name: 'Ukrainian' , know: 'native'}, {name: 'Russian' , know: 'native'}]}
     },
+    comExpPage: {
+        title: 'Work experience',
+        companis:[
+            {
+                role: 'Middle front-end developer',
+                compName: 'RoyalTechno(2022 – 2023), 6 months',
+                resps: ['Self-development frontend part of the projects using react and its infrastructure', 'Interaction with other team members','Creating api with python(fast API)','Last project - web app for managing telegram bots/user bots']
+            },
+            {
+                role: 'Trainee front-end developer',
+                compName: 'memCrab(2022 – 2022), 6 months',
+                resps: ['Website layout creation(Html, Css)', 'Creating and updating react components','Creating API on the client side']
+            },
+        ]
+    },
     worksPage: {
-        title: 'Works',
+        title: 'Pet projects',
         blocks: [
             { photo: calendar, name: 'Calendar Online', steck: 'MERN, Tailwind Css, Type script', link: 'https://vas11a.github.io/frontend-calendar-online/' , lang: 'node'},
             { photo: life, name: 'Life Game', steck: 'React, Redux-toolkit(DT only!)', link: 'https://vas11a.github.io/life-game/' , lang: 'js'},
