@@ -37,7 +37,7 @@ const data = {
     },
     scillsPage: {
         title: 'Skills',
-        skills: ['Html/Css' , 'Scss/Tailwind.css' , 'Java Script', 'Type Script' , 'React/next.js', 'Redux/redux-toolkit','Vue/vuex','Node/express(base)','MongoDB','Docker', 'RestFull API', 'Git']
+        skills: ['Html/Css' , 'Scss/Tailwind.css' ,'Bootstrap', 'Java Script', 'Type Script' , 'React/next.js', 'Redux/redux-toolkit','Vue/vuex','Node/express(base)','MongoDB','Docker', 'RestFull API', 'Git']
     },
     educationPage: {
         title: 'Education',
@@ -49,8 +49,13 @@ const data = {
         companis:[
             {
                 role: 'Middle front-end developer',
-                compName: 'RoyalTechno(2022 – 2023), 6 months',
-                resps: ['Self-development frontend part of the projects using react and its infrastructure', 'Interaction with other team members','Creating api with python(fast API)','Last project - web app for managing telegram bots/user bots']
+                compName: 'Gettraff(14.03.2023 - now)',
+                resps: ['Creating frontend part of the projects using react and its infrastructure','Creating simple sites(html,css,js,php)', 'Working in team(back devs, designers, etc)']
+            },
+            {
+                role: 'Middle front-end developer',
+                compName: 'StartUp(2022 – 2023), 4 months',
+                resps: ['Self-development frontend part of the projects using react and its infrastructure', 'Interaction with other team members','Project - web app for managing telegram bots/user bots']
             },
             {
                 role: 'Trainee front-end developer',
