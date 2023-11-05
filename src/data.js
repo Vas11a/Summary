@@ -28,8 +28,8 @@ const data = {
     },
     aboutPage: {
         title: 'About me',
-        info: `Hi, I am Vasyl a frontend developer from Ukraina. I have 2 years
-        of development experience and more than year of
+        info: `I am a frontend developer from Ukraine. I have 3 years
+        of development experience and almost 2 of
         commercial experience with frontend technologies.
         Now I'm studying at the university in Warsaw(distance)
         and improve my programming skills. Looking for a job
@@ -37,7 +37,7 @@ const data = {
     },
     scillsPage: {
         title: 'Skills',
-        skills: ['Html/Css' , 'Scss/Tailwind.css' ,'Bootstrap', 'Java Script', 'Type Script' , 'React/next.js', 'Redux/redux-toolkit','Vue/vuex','Node/express(base)','MongoDB','Docker', 'RestFull API', 'Git']
+        skills: ['Html/Css' , 'Scss/Tailwind.css' ,'Bootstrap', 'Java Script', 'Type Script' , 'React/next.js', 'Redux/redux-toolkit','Node/express(base)','MongoDB','Docker', 'RestFull API', 'Git']
     },
     educationPage: {
         title: 'Education',
@@ -49,12 +49,12 @@ const data = {
         companis:[
             {
                 role: 'Middle front-end developer',
-                compName: 'Gettraff(14.03.2023 - now)',
+                compName: 'Eurocom Group(14.03.2023 - now)',
                 resps: ['Creating frontend part of the projects using react and its infrastructure','Creating simple sites(html,css,js,php)', 'Working in team(back devs, designers, etc)']
             },
             {
                 role: 'Middle front-end developer',
-                compName: 'StartUp(2022 – 2023), 4 months',
+                compName: 'Start Up(2022 – 2023), 4 months',
                 resps: ['Self-development frontend part of the projects using react and its infrastructure', 'Interaction with other team members','Project - web app for managing telegram bots/user bots']
             },
             {
@@ -80,7 +80,7 @@ const data = {
     },
     footerPage: [
         { photo: gh, link: 'https://github.com/Vas11a'},
-        { photo: lin, link: 'https://www.linkedin.com/in/vasia-panov-34586b241' },
+        { photo: lin, link: 'https://www.linkedin.com/in/vasyl-p-34586b241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
         { photo: tg, link: 'https://t.me/panoclv' },
         { photo: gmail, link: 'mailto:vasapanov721@gmail.com' },
     ]
