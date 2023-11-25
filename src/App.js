@@ -25,6 +25,6 @@ function App() {
       <Footer data={data.footerPage}/>
     </div>
   );
-}
+};
 
 export default App;
