@@ -8,6 +8,7 @@ import calendar from './imgs/calendar.jpg'
 import ghProfiles from './imgs/gh-profiles.jpg'
 import life from './imgs/lifeGame.png'
 import qr from './imgs/qr.jpg'
+import finance from './imgs/finance.png'
 
 import gh from './imgs/ghub.png'
 import gmail from './imgs/gmai;.png'
@@ -22,14 +23,14 @@ const data = {
         }, 
         myInfo: { 
             name: 'Vasia Panov', 
-            data: 'Frontend Developer 19 years old, Kyiv/Warsaw', 
+            data: 'Frontend Developer 20 years old, Kyiv/Warsaw', 
             photo: myPhoto
         }  
     },
     aboutPage: {
         title: 'About me',
         info: `I am a frontend developer from Ukraine. I have 3 years
-        of development experience and almost 2 of
+        of development experience and almost 1.5 of
         commercial experience with frontend technologies.
         Now I'm studying at the university in Warsaw(distance)
         and improve my programming skills. Looking for a job
@@ -49,16 +50,16 @@ const data = {
         companis:[
             {
                 role: 'Middle front-end developer',
-                compName: 'Eurocom Group(14.03.2023 - now)',
+                compName: 'Eurocom Group(14.03.2023 - 05.01.2024), 9 months',
                 resps: ['Creating frontend part of the projects using react and its infrastructure','Creating simple sites(html,css,js,php)', 'Working in team(back devs, designers, etc)']
             },
             {
-                role: 'Middle front-end developer',
-                compName: 'Start Up(2022 – 2023), 4 months',
+                role: 'Junior front-end developer',
+                compName: 'Start Up(2022 – 2023), 3 months',
                 resps: ['Self-development frontend part of the projects using react and its infrastructure', 'Interaction with other team members','Project - web app for managing telegram bots/user bots']
             },
             {
-                role: 'Trainee front-end developer',
+                role: 'Junior front-end developer',
                 compName: 'memCrab(2022 – 2022), 6 months',
                 resps: ['Website layout creation(Html, Css)', 'Creating and updating react components','Creating API on the client side']
             },
@@ -67,6 +68,7 @@ const data = {
     worksPage: {
         title: 'Pet projects',
         blocks: [
+            { photo: finance, name: 'Finance App', steck: 'MERN, Tailwind Css, Type script', link: 'https://vas11a.github.io/financeapp/' , lang: 'node'},
             { photo: calendar, name: 'Calendar Online', steck: 'MERN, Tailwind Css, Type script', link: 'https://vas11a.github.io/frontend-calendar-online/' , lang: 'node'},
             { photo: life, name: 'Life Game', steck: 'React, Redux-toolkit(DT only!)', link: 'https://vas11a.github.io/life-game/' , lang: 'js'},
             { photo: ghProfiles, name: 'GitHub profiles', steck: 'React Redux-toolkit Type script', link: 'https://vas11a.github.io/github-profiles/' , lang: 'ts'},
