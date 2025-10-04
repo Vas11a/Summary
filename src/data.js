@@ -49,7 +49,7 @@ const data = {
         title: 'Work experience',
         companis:[
             {
-                role: 'Middle front-end developer',
+                role: 'Front-end developer',
                 compName: 'Eurocom Group(14.03.2023 - 05.01.2024), 9 months',
                 resps: ['Creating frontend part of the projects using react and its infrastructure','Creating simple sites(html,css,js,php)', 'Working in team(back devs, designers, etc)']
             },
